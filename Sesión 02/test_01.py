@@ -1,10 +1,16 @@
-#Tipos de datos
-#Enteros
-x=int(input("Ingrese el 1er número: "))
-y=int(input("Ingrese el 2do número: "))
+"""Tipos de datos"""
+"""Enteros: int"""
+"""Flotantes: float"""
 
-def suma(x, y):
-    return x + y
+"""Creando variables"""
 
-z = suma(x, y)
-print(z)
+var1 = 40
+var2 = 105
+var3 = 60.3
+var4 = -10.56
+
+print("El valor de mi variable var1 es: ", var1)
+print("El valor de mi variable var2 es: ", var2)
+print("El valor de mi variable var3 es: {}".format(var3))
+print("El valor de mi variable var4 es: {}".format(var4))
+
