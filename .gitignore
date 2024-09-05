@@ -2,3 +2,4 @@
 *.xml
 *.csv
 *.xls
+__pycache__
